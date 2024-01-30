@@ -1,0 +1,8 @@
+<h1>Counter</h1>
+<button id="increment" (click)="increment('add')">Increase</button>
+<p>Counter value is {{val}}</p>
+<button id="decrement" (click)="increment('subtract')">Decrease</button>
+
+<ul>
+    <li *ngFor="let item of list">{{item}}</li>
+</ul>

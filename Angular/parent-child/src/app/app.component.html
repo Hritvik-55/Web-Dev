@@ -1,0 +1,10 @@
+
+<app-item-detail [item]="currentItem"></app-item-detail>
+<app-item-output (newItemEvent)="addItem($event)"></app-item-output>
+<ul>
+    <li *ngFor="let item of items">{{item}}</li>
+</ul>
+<br>
+<input type="text" [(ngModel)]="name">
+<h1>{{name}}</h1>
+<app-template-reference-variable></app-template-reference-variable>
