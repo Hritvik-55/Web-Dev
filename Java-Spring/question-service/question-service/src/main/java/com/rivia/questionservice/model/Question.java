@@ -1,4 +1,4 @@
-package com.rivia.quizapp.model;
+package com.rivia.questionservice.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -73,6 +73,22 @@ public class Question {
 
     public String getRightAnswer() {
         return rightAnswer;
+    }
+
+    public String getDifficultyLevel() {
+        return difficultyLevel;
+    }
+
+    public void setDifficultyLevel(String difficultyLevel) {
+        this.difficultyLevel = difficultyLevel;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
     }
 
     public void setRightAnswer(String rightAnswer) {

@@ -1,4 +1,4 @@
-package com.rivia.quizapp.model;
+package com.rivia.quizservice.model;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;

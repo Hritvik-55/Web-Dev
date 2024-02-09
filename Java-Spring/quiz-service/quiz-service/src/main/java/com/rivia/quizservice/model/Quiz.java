@@ -1,4 +1,4 @@
-package com.rivia.quizapp.model;
+package com.rivia.quizservice.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -12,8 +12,8 @@ public class Quiz {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String title;
-    @ManyToMany
-    private List<Question> questions;
+    @ElementCollection
+    private List<Integer> questionIds;
 
     public void setTitle(String title) {
         this.title = title;
@@ -23,11 +23,5 @@ public class Quiz {
         return title;
     }
 
-    public void setQuestions(List<Question> questions) {
-        this.questions = questions;
-    }
 
-    public List<Question> getQuestions() {
-        return questions;
-    }
 }

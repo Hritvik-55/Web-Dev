@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class SearchInSortedMatrix {
     public static void main(String[] args) {
         int[][] matrix={
-                {1,2,3},
-                {4,5,6},
-                {7,8,9}
+                {1},
+                {3}
+
         };
         System.out.println(Arrays.toString(Search(matrix,9)));
 

@@ -1,15 +1,14 @@
-package com.rivia.quizapp.service;
+package com.rivia.quizservice.service;
 
-import com.rivia.quizapp.dao.QuestionDao;
-import com.rivia.quizapp.dao.QuizDao;
-import com.rivia.quizapp.model.Question;
-import com.rivia.quizapp.model.QuestionWrapper;
-import com.rivia.quizapp.model.Quiz;
-import com.rivia.quizapp.model.Response;
+import com.rivia.quizservice.dao.QuizDao;
+import com.rivia.quizservice.model.QuestionWrapper;
+import com.rivia.quizservice.model.Quiz;
+import com.rivia.quizservice.model.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import com.rivia.quizservice.feign.QuizInnterface;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,43 +19,31 @@ public class QuizService {
     @Autowired
     QuizDao quizDao;
     @Autowired
-    QuestionDao questionDao;
+    QuizInnterface quizInnterface;
 
 
     public ResponseEntity<String> createQuiz(String category, int numQ, String title) {
-        List<Question> questions=questionDao.findRandomQuestionsByCategory(category,numQ);
+        List<Integer> questions=quizInnterface.getQuestionsForQuiz(category,numQ).getBody();
         Quiz quiz=new Quiz();
         quiz.setTitle(title);
-
-        quiz.setQuestions(questions);
+        quiz.setQuestionIds(questions);
         quizDao.save(quiz);
+//
         return new ResponseEntity<>("Success", HttpStatus.CREATED);
     }
 
     public ResponseEntity<List<QuestionWrapper>> getQuizQuestions(Integer id) {
-        Optional<Quiz> quiz=quizDao.findById(id);
-        List<Question> questionsfromDB=quiz.get().getQuestions();
-        List<QuestionWrapper> questionsForUser=new ArrayList<>();
-        for(Question q:questionsfromDB){
-            QuestionWrapper qw=new QuestionWrapper(q.getId(),q.getQuestionTitle(),q.getOption1(),q.getOption2(),q.getOption3(),q.getOption4());
-            questionsForUser.add(qw);
+        Quiz quiz=quizDao.findById(id).get();
+        List<Integer> questionIds=quiz.getQuestionIds();
 
-        }
-        return new ResponseEntity<>(questionsForUser,HttpStatus.OK);
+        ResponseEntity<List<QuestionWrapper>> questions= quizInnterface.getQuestionsFromId(questionIds);
+
+
+        return questions;
     }
 
     public ResponseEntity<Integer> calculateResult(Integer id, List<Response> responses) {
-        Quiz quiz=quizDao.findById(id).get();
-        List<Question> questions=quiz.getQuestions();
-        int right=0;
-        int i=0;
-        for(Response response:responses){
-            if(response.getResponse().equals(questions.get(i).getRightAnswer()))
-                right++;
-            i++;
-
-
-        }
-        return new ResponseEntity<>(right,HttpStatus.OK);
+         ResponseEntity<Integer> score= quizInnterface.getScore(responses);
+        return score;
     }
 }
