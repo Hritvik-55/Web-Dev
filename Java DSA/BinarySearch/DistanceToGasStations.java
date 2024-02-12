@@ -4,6 +4,7 @@ public class DistanceToGasStations {
     public static void main(String[] args) {
         int[] arr={4,6,10};
         System.out.println(minimizeMaxDistance(arr,4));
+        System.out.println(3/2);
     }
 
     public static int NumberOfGasStations(int[] arr,double dist){
