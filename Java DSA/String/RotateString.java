@@ -1,2 +1,23 @@
-package String;public class RotateString {
+package String;
+
+import java.util.ArrayList;
+
+public class RotateString {
+    public static boolean rotateString(String s, String goal) {
+        int n1=s.length();
+        int n2=goal.length();
+        if(n1!=n2){
+            return false;
+
+        }
+        StringBuilder str=new StringBuilder(goal);
+        str=str.append(str);
+        if(str.indexOf(s)!=-1){
+            return true;
+        }
+        else return false;
+
+
+    }
 }
+

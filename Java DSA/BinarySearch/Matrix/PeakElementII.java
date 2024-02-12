@@ -8,7 +8,7 @@ public class PeakElementII {
         String ans= Arrays.toString(findPeakGrid(matrix));
         System.out.println(ans);
         String s="gigu";
-        char[] charArray = s.toCharArray();
+        s.toCharArray();
 
 
     }

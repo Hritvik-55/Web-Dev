@@ -1,0 +1,4 @@
+String Interpolation {{data}}
+Property binding [Property]="data"
+Event binding (event)="expression"
+Two way binding [(ngModel)]="data"
