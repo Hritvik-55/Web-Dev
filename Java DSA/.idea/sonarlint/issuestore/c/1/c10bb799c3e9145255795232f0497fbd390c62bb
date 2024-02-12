@@ -1,0 +1,10 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(óéÂ¨şÿÿÿÿ8ŸÀÏÕ1
+h
+java:S3518#"KA division by zero will occur when invoking method "NumberOfGasStations()".(î€Óâ8õÀÏÕ1
+G	java:S106"+Replace this use of System.out by a logger.(ÌéòÔ8õ¿‚ÏÕ1
+L	java:S106"+Replace this use of System.out by a logger.(²¤áñøÿÿÿÿ8¢â‡ĞÕ1
+i	java:S100
+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÒ’Q8ƒÁÏÕ1
+F
+java:S1905")Remove this unnecessary cast to "double".(Ä²¦ï8ˆÁÏÕ1
