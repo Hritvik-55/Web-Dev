@@ -2,3 +2,7 @@ String Interpolation {{data}}
 Property binding [Property]="data"
 Event binding (event)="expression"
 Two way binding [(ngModel)]="data"
+
+#Services
+Service is a class that have some data and function and we csn use this service in multiple component
+
