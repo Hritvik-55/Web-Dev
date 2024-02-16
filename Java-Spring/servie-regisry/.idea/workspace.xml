@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dca357fa-bbd0-49d9-b52f-d33f738ef1c3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Java DSA/BinarySearch/KthElementOf2SortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java DSA/BinarySearch/Matrix/Max1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java DSA/BinarySearch/Matrix/PeakElementII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java DSA/BinarySearch/Matrix/SearchBool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java DSA/BinarySearch/Median2SortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java DSA/BinarySearch/TwoSumIIInputArraySorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java DSA/String/RemoveOutermostParanthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../propertyListing/src/main/java/com/rivia/propertyListing/controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../propertyListing/src/main/java/com/rivia/propertyListing/model/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../propertyListing/src/main/java/com/rivia/propertyListing/repository/PostRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../propertyListing/src/main/java/com/rivia/propertyListing/repository/SearchRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../propertyListing/src/main/java/com/rivia/propertyListing/repository/SearchRepoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-service/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-service/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-service/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-service/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-service/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-service/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-service/.idea/question-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-service/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-service/question-service/src/main/java/com/rivia/questionservice/controller/QuestionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-service/question-service/src/main/java/com/rivia/questionservice/dao/QuestionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-service/question-service/src/main/java/com/rivia/questionservice/model/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-service/question-service/src/main/java/com/rivia/questionservice/model/QuestionWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-service/question-service/src/main/java/com/rivia/questionservice/model/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-service/question-service/src/main/java/com/rivia/questionservice/service/QuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz-service/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz-service/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz-service/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz-service/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz-service/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz-service/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz-service/.idea/quiz-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz-service/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz-service/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz-service/quiz-service/src/main/java/com/rivia/quizservice/controller/QuizController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz-service/quiz-service/src/main/java/com/rivia/quizservice/dao/QuizDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz-service/quiz-service/src/main/java/com/rivia/quizservice/feign/QuizInnterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz-service/quiz-service/src/main/java/com/rivia/quizservice/model/QuestionWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz-service/quiz-service/src/main/java/com/rivia/quizservice/model/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz-service/quiz-service/src/main/java/com/rivia/quizservice/model/QuizDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz-service/quiz-service/src/main/java/com/rivia/quizservice/model/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz-service/quiz-service/src/main/java/com/rivia/quizservice/service/QuizService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizapp/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizapp/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizapp/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizapp/.idea/quizapp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizapp/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizapp/quizapp/src/main/java/com/rivia/quizapp/controller/QuestionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizapp/quizapp/src/main/java/com/rivia/quizapp/controller/QuizController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizapp/quizapp/src/main/java/com/rivia/quizapp/dao/QuestionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizapp/quizapp/src/main/java/com/rivia/quizapp/dao/QuizDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizapp/quizapp/src/main/java/com/rivia/quizapp/model/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizapp/quizapp/src/main/java/com/rivia/quizapp/model/QuestionWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizapp/quizapp/src/main/java/com/rivia/quizapp/model/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizapp/quizapp/src/main/java/com/rivia/quizapp/model/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizapp/quizapp/src/main/java/com/rivia/quizapp/service/QuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizapp/quizapp/src/main/java/com/rivia/quizapp/service/QuizService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/servie-regisry.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java DSA/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java DSA/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java DSA/BinarySearch/Matrix/SearchInSortedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java DSA/BinarySearch/Matrix/SearchInSortedMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java DSA/out/production/Java DSA/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java DSA/out/production/Java DSA/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java DSA/out/production/Java DSA/BinarySearch/AllocateBooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java DSA/out/production/Java DSA/BinarySearch/AllocateBooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java DSA/out/production/Java DSA/BinarySearch/DistanceToGasStations.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java DSA/out/production/Java DSA/BinarySearch/DistanceToGasStations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java DSA/out/production/Java DSA/BinarySearch/Matrix/SearchInSortedMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java DSA/out/production/Java DSA/BinarySearch/Matrix/SearchInSortedMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java DSA/out/production/Java DSA/BinarySearch/PaintersPartition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java DSA/out/production/Java DSA/BinarySearch/PaintersPartition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java DSA/out/production/Java DSA/KokoBanana.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java DSA/out/production/Java DSA/KokoBanana.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java DSA/out/production/Java DSA/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java DSA/out/production/Java DSA/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quiz/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quiz/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quiz/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quiz/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quiz/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quiz/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quiz/src/main/java/com/quiz/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quiz/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quiz/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quiz/src/test/java/com/quiz/ApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2c4yRqY1H1Ea9YXFW57WRuSbzAw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/DSA+Web Dev/Java-Spring/servie-regisry"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ServieRegisryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rivia.servieregisry.ServieRegisryApplication" />
+      <module name="servie-regisry" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rivia.servieregisry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServieRegisryApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dca357fa-bbd0-49d9-b52f-d33f738ef1c3" name="Changes" comment="" />
+      <created>1707385139333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707385139333</updated>
+    </task>
+    <servers />
+  </component>
+</project>
